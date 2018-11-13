@@ -1,0 +1,32 @@
+#semafor1, #semafor2 {
+    width: 60px;
+    height: 200px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 45px; 
+}
+#pesacki{
+    width: 60px;
+    height: 100px;
+    border: 2px solid silver;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.boje {
+     
+        width: 50px;
+        height: 50px;
+        border: 1px solid silver;
+        border-radius: 50px;
+        margin: 4px;
+}
+.kreni, .stani{
+        width: 50px;
+        height: 40px;
+        border: 1px solid silver;
+        border-radius: 50px;
+        margin: 4px;
+
+}
