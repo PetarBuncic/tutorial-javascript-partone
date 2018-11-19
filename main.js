@@ -1,5 +1,5 @@
 function semafor(){
-    var boje =  document.getElementsByClassName('boje');
+    var boje = document.getElementsByClassName('boje');
     var kreni= document.getElementsByClassName('kreni');
     var stani= document.getElementsByClassName('stani');
     stani[0].style.background ='grey';
@@ -42,3 +42,11 @@ function raskrsnica(){
     var start =setInterval(semafor,25000);
 }
 raskrsnica();
+
+    // alert ('jQuery'+ jQuery.fn.jquery);
+      alert ('jQuery'+ jQuery.fn.jquery);
+      alert(jQuery('p').text()+' Poruka ako nije ucitan DOM');
+     jQuery(document).ready(function(){
+        
+        alert(jQuery('p').text()+' Poruka iz ready funkcje');
+     });
